@@ -46,7 +46,7 @@ const db = new SQLiteDatabase('./SQL/main.db');
             keys: {
                 id: ['INTEGER', { primary: true, autoincrement: true }],
                 userId: ['TEXT'],
-                guildId: ['1293027934134603868'],
+                guildId: ['TEXT'],
                 reason: ['TEXT', { nullable: true }]
             }
         },
@@ -55,9 +55,9 @@ const db = new SQLiteDatabase('./SQL/main.db');
             overwrite: true,
             keys: {
                 id: ['INTEGER', { primary: true, autoincrement: true }],
-                authorId: ['TEXT'],
-                guildId: ['TEXT'],
-                channelId: ['TEXT'],
+                authorId: ['1344729084676018177'],
+                guildId: ['1293027934134603868'],
+                channelId: ['1349090414858342461'],
                 closed: ['BOOLEAN', { nullable: true }]
             }
         }
