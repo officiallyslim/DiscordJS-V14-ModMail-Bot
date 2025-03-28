@@ -46,7 +46,7 @@ const db = new SQLiteDatabase('./SQL/main.db');
             keys: {
                 id: ['INTEGER', { primary: true, autoincrement: true }],
                 userId: ['TEXT'],
-                guildId: ['TEXT'],
+                guildId: ['1293027934134603868'],
                 reason: ['TEXT', { nullable: true }]
             }
         },
